@@ -47,7 +47,7 @@ let last = performance.now(),
   lastEvent = null,
   disposed = false;
 const image = new Image();
-image.src = "/art/kitchen.png";
+image.src = "./art/kitchen.png";
 image.onload = () => {
   background = image;
   loaded = true;
